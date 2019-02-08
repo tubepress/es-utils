@@ -1,0 +1,39 @@
+{
+  "name": "@tubepress/es-utils",
+  "version": "1.0.0",
+  "description": "A collection of application-agnostic ECMAScript utilities",
+  "author": "Eric Hough <eric@tubepress.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tubepress/es-utils.git"
+  },
+  "keywords": [
+    "ecmascript",
+    "utilities"
+  ],
+  "bugs": {
+    "url": "https://github.com/tubepress/es-utils/issues"
+  },
+  "homepage": "https://github.com/tubepress/es-utils",
+  "dependencies": {
+    "debounce"             : "^1.2",
+    "object.assign"        : "^4.1",
+    "strman.endswith"      : "^2.0",
+    "@wordpress/dom-ready" : "^2.0"
+  },
+  "devDependencies": {
+    "eslint"                         : "^5.13",
+    "eslint-plugin-import"           : "^2.14",
+    "@tubepress/browserslist-config" : "^1.0",
+    "@tubepress/eslint-config"       : "^1.0"
+  },
+  "browserslist": [
+    "extends @tubepress/browserslist-config"
+  ],
+  "eslintConfig": {
+    "extends": [
+      "@tubepress"
+    ]
+  }
+}
