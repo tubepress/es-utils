@@ -19,7 +19,7 @@
   "dependencies": {
     "debounce"             : "^1.2",
     "object.assign"        : "^4.1",
-    "strman.endswith"      : "^2.0",
+    "strman.isstring"      : "^2.0",
     "@wordpress/dom-ready" : "^2.0"
   },
   "devDependencies": {
