@@ -1,6 +1,6 @@
 {
   "name": "@tubepress/es-utils",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "description": "A collection of application-agnostic ECMAScript utilities",
   "author": "Eric Hough <eric@tubepress.com>",
   "license": "MIT",
