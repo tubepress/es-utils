@@ -4,7 +4,7 @@ A collection of application-agnostic ES6 modules with the following goals:
  
 1. Modules should provide stable interfaces to accomplish common tasks
 1. Module implementations should be lightweight, high-quality, and may be 3rd-party
-1. Modules must support ES5 environments (after transpilation)
+1. Modules must support ES5 environments
 
 ## List of modules
 
@@ -26,7 +26,7 @@ A collection of application-agnostic ES6 modules with the following goals:
 ## Example Usage
 
 ```javascript
-import endsWith from '@tubepress/es-utils/string/ends-with';
+import endsWith from '@tubepress/es-utils/es/string/ends-with';
 
 if (endsWith('foo-bar', 'bar')) {
   ...

@@ -12,6 +12,21 @@
     "ecmascript",
     "utilities"
   ],
+  "files": [
+    "src",
+    "es",
+    "README.md",
+    "LICENSE.md"
+  ],
+  "scripts": {
+    "clean": "rimraf es",
+    "build": "yarn clean && BABEL_ENV=production babel src --out-dir es"
+  },
+  "babel": {
+    "presets": [
+      [ "@babel/env", { "modules" : false} ]
+    ]
+  },
   "bugs": {
     "url": "https://github.com/tubepress/es-utils/issues"
   },
@@ -23,10 +38,14 @@
     "@wordpress/dom-ready" : "^2.0"
   },
   "devDependencies": {
-    "eslint"                         : "^5.13",
-    "eslint-plugin-import"           : "^2.14",
+    "@babel/cli"                     : "^7.2",
+    "@babel/core"                    : "^7.3",
+    "@babel/preset-env"              : "^7.3",
     "@tubepress/browserslist-config" : "^1.0",
-    "@tubepress/eslint-config"       : "^1.0"
+    "@tubepress/eslint-config"       : "^1.0",
+    "eslint"                         : "^5.14",
+    "eslint-plugin-import"           : "^2.16",
+    "rimraf"                         : "^2.6"
   },
   "browserslist": [
     "extends @tubepress/browserslist-config"
