@@ -33,6 +33,7 @@
   "homepage": "https://github.com/tubepress/es-utils",
   "dependencies": {
     "debounce"             : "^1.2",
+    "load-script2"         : "^1.0",
     "object.assign"        : "^4.1",
     "strman.isstring"      : "^2.0",
     "@wordpress/dom-ready" : "^2.0"

@@ -10,6 +10,7 @@ A collection of application-agnostic ES6 modules with the following goals:
 
 * **DOM**
   * [`add-ready-handler`](dom/add-ready-handler.js) : adds a DOM-ready callback
+  * [`load-script`](dom/load-script.js) : append a `<script>` to the DOM `<head>`
 * **function**
   * [`debounce`](function/debounce.js) : throttle the invocation of a function
 * **is**
